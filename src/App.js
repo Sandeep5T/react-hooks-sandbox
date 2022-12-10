@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import UseRefExample1 from "./components/UseRefExample1";
+import UseRefExample2 from "./components/UseRefExample2";
+import UseRefExample3 from "./components/UseRefExample3";
+import UseMemoExample from "./components/UseMemoExample";
+import UseCallbackExample from "./components/UseCallbackExample";
+import CustomHookExample1 from "./components/CustomHookExample1";
+import CustomHookExample2 from "./components/CustomHookExample2";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-5 container">
+      <UseRefExample1 />
+      <UseRefExample2 />
+      <UseRefExample3 />
+      <UseMemoExample />
+      <UseCallbackExample />
+      <CustomHookExample1 />
+      <CustomHookExample2 />
     </div>
   );
 }
